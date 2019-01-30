@@ -1,0 +1,22 @@
+<launch>
+
+
+    <!-- start the robot -->
+    <include file="$(find kinova_bringup)/launch/kinova_robot.launch" >
+    </include>
+    <include file="$(find j2n6s300_moveit_config)/launch/j2n6s300_demo.launch">
+    </include>
+    
+    <!-- start the Realsense -->
+    <include file="$(find realsense2_camera)/launch/rs_rgbd.launch" >
+    </include>
+
+    <!-- start ArUco -->
+    <include file="$(find ar_track_alvar)/launch/pr2_indiv_no_kinect.launch" >
+    </include>
+
+
+    
+
+
+</launch>
