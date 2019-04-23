@@ -16,7 +16,7 @@ Use the packages for hand-eye calibration of a 6-DOFs Kinova-jaco arm! The calib
 - AR marker with size 5.4 * 5.4 (cm)
 
 ## Contents
-- AR track
+- AR tracker
 
   Track the pose of the AR markers. See Readme in the package for details.
 
